@@ -1,3 +1,12 @@
+# The .gitignore file tells git which files to ignore
+# For example, macOS automatically creates a hidden, unnecessary file called .DS_Store sometimes
+# If we add that as an ignored file, then it won't be added to the staging area when we type git add .
+# / denotes a directory (folder)
+# * means "anything", so *.py means ignore all files that end in .py
+
+# macOS thing
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
