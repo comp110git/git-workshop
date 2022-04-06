@@ -12,7 +12,7 @@ def main() -> None:
         file.write(char)
     file.close()
     print("After running this file, open up demo.txt in File Explorer/Finder for a nice surprise :)")
-    print("You can also accomplish this by typing cat demo.txt")
+    print("You can also accomplish this by typing cat demo.txt (macOS and Linux)")
     
     # Add whatever else you want under this line!
     # A simple print statement, something interesting, or anything else.

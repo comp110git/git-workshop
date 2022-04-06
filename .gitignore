@@ -7,6 +7,8 @@
 # macOS thing
 .DS_Store
 
+# The rest of this file is boilerplate code created automatically when the repo was created
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
