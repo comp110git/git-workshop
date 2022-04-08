@@ -1,8 +1,11 @@
 """Short and sweet demo program."""
 
-__author__ = "<your name>"  # Fill in your name here - always good practice to have an __author__ variable.
+import random
+
+__author__ = "Jesse Wei <jessew13@email.unc.edu>"
 
 # Please don't modify this list :)
+# ok i won't
 SECRET: list[str] = ['  ', '█', '█', '█', '█', '█', '█', '╗', ' ', '█', '█', '╗', '█', '█', '█', '█', '█', '█', '█', '█', '╗', ' ', '█', '█', '╗', ' ', '█', '█', '╗', ' ', '█', '█', '█', '█', '█', '█', '╗', ' ', '\n', ' ', '█', '█', '╔', '═', '═', '═', '═', '╝', ' ', '█', '█', '║', '╚', '═', '═', '█', '█', '╔', '═', '═', '╝', '█', '█', '█', '║', '█', '█', '█', '║', '█', '█', '╔', '═', '█', '█', '█', '█', '╗', '\n', ' ', '█', '█', '║', ' ', ' ', '█', '█', '█', '╗', '█', '█', '║', ' ', ' ', ' ', '█', '█', '║', ' ', ' ', ' ', '╚', '█', '█', '║', '╚', '█', '█', '║', '█', '█', '║', '█', '█', '╔', '█', '█', '║', '\n', ' ', '█', '█', '║', ' ', ' ', ' ', '█', '█', '║', '█', '█', '║', ' ', ' ', ' ', '█', '█', '║', ' ', ' ', ' ', ' ', '█', '█', '║', ' ', '█', '█', '║', '█', '█', '█', '█', '╔', '╝', '█', '█', '║', '\n', ' ', '╚', '█', '█', '█', '█', '█', '█', '╔', '╝', '█', '█', '║', ' ', ' ', ' ', '█', '█', '║', ' ', ' ', ' ', ' ', '█', '█', '║', ' ', '█', '█', '║', '╚', '█', '█', '█', '█', '█', '█', '╔', '╝', '\n', '  ', '╚', '═', '═', '═', '═', '═', '╝', ' ', '╚', '═', '╝', ' ', ' ', ' ', '╚', '═', '╝', ' ', ' ', ' ', ' ', '╚', '═', '╝', ' ', '╚', '═', '╝', ' ', '╚', '═', '═', '═', '═', '═', '╝', ' ', '\n']
 
 def main() -> None:
@@ -18,6 +21,16 @@ def main() -> None:
     # A simple print statement, something interesting, or anything else.
     # If you want your pull request to be accepted, don't put anything you wouldn't want others to see.
 
+    # what if i just add a comment
+    
+    # ok fine I'll add a print statement in a loop
+    num_times: int = int(input("Type a number, any number! "))
+    for i in range(num_times):
+        print("Hello world " + str(i))
+
+
+# if __name__ == "__main__" is lame
+# actually functions are lame I prefer to keep all my code at the global level
 
 if __name__ == "__main__":
     main()
