@@ -8,6 +8,7 @@
 .DS_Store
 
 # The rest of this file is boilerplate code created automatically when the repo was created
+# With your knowledge of git and GitHub, you should be able to verify this statement!
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
