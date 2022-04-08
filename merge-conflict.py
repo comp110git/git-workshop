@@ -1,12 +1,6 @@
-"""This is code from the main branch."""
+"""This is code from the dev branch."""
 
-__author__ = "main branch developer"
-
-
-def main() -> None:
-    print("main branch developer says hi")
-    print("main branch devs are superior btw")
+__author__ = "dev branch developer"
 
 
-if __name__ == "__main__":
-    main()
+print("dev branch developer says hi")
