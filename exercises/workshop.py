@@ -18,7 +18,9 @@ def main() -> None:
     # Add whatever else you want under this line!
     print("HELP ME")
     # A simple print statement, something interesting, or anything else.
+    print("Hello")
     # If you want your pull request to be accepted, don't put anything you wouldn't want others to see.
+
 
 
 if __name__ == "__main__":
