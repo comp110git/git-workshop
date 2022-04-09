@@ -7,6 +7,7 @@ SECRET: list[str] = ['  ', '█', '█', '█', '█', '█', '█', '╗', ' ',
 
 def main() -> None:
     print("Hello git110ers!")  
+    # HELLO THIS IS A CHANGE
     file = open("demo.txt", "w")
     for char in SECRET:
         file.write(char)
